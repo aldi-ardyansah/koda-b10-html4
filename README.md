@@ -1,6 +1,6 @@
 # HTML 4
 
-## Create Web Layout Using CSS Flex
+## Create Web Layout Using CSS Grid
 
 ### Screenshoot
 
