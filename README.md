@@ -4,4 +4,4 @@
 
 ### Screenshoot
 
-![Screenshoot](screenshoot.png)
+![Screenshoot](docs/screenshoot.png)

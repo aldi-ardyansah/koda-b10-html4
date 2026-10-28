@@ -1,27 +1,37 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Semantic Tag HTML</title>
-    </head>
-    <body>
-        <table width="100%" border="1">
-            <tr height="100px">
-                <td align="center" colspan="2"><strong>&lt;<font color="green">header</font>&gt;</strong></td>
-            </tr>
-            <tr height="100px">
-                <td align="center" colspan="2"><font color="blue"><strong>&lt;nav&gt;</font></strong></td>
-            </tr>
-            <tr height="200px">
-                <td align="center" width="75%"><font color="purple"><strong>&lt;section&gt;</font></strong></td>
-                <td align="center" width="25%" rowspan="2"><font color="yellow"><strong>&lt;aside&gt;</font></strong></td>
-            </tr>
-            <tr height="200px">
-                <td align="center" width="75%"><font color="aqua"><strong>&lt;article&gt;</font></strong></td>
-            </tr>
-            <tr height="100px">
-                <td align="center" colspan="2"><font color="red"><strong>&lt;footer&gt;</font></strong></td>
-            </tr>
-        </table>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tag HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="layout">
+        <header class="header">
+            <strong>&lt;<span>header</span>&gt;</strong>
+        </header>
+        <nav class="nav">
+            <strong>&lt;nav&gt;</strong>
+        </nav>
+        <main class="main">
+            <div class="content">
+                <section class="section">
+                    <strong>&lt;section&gt;</strong>
+                </section>
+                <article class="article">
+                    <strong>&lt;article&gt;</strong>
+                </article>
+            </div>
+            <aside class="aside">
+                <strong>&lt;aside&gt;</strong>
+            </aside>
+        </main>
+        <footer class="footer">
+            <strong>&lt;footer&gt;</strong>
+        </footer>
+    </div>
+</body>
 </html>
